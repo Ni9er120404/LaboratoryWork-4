@@ -12,14 +12,17 @@
 		Width="250">
 	<Grid
 		ShowGridLines="True">
+		
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition></ColumnDefinition>
 			<ColumnDefinition></ColumnDefinition>
 		</Grid.ColumnDefinitions>
+		
 		<Grid.RowDefinitions>
 			<RowDefinition></RowDefinition>
 			<RowDefinition></RowDefinition>
 		</Grid.RowDefinitions>
+		
 		<TextBox
 			x:Name="TextBox1"
 			Margin="15,15,15,15"
