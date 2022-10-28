@@ -25,6 +25,7 @@
 		
 		<TextBox
 			x:Name="TextBox1"
+			TextChanged="TextBox1_TextChanged"
 			Margin="15,15,15,15"
 			Grid.Row="0"
 			Grid.Column="0">
@@ -36,13 +37,5 @@
 			Grid.Row="0"
 			Grid.Column="1">
 		</TextBox>
-
-		<Button
-			x:Name="Button1"
-			Click="Button1_Click"
-			Margin="35,35,35,35"
-			Grid.Row="1"
-			Grid.ColumnSpan="2">
-		</Button>
 	</Grid>
 </Window>

@@ -9,9 +9,9 @@ namespace LaboratoryWork_4
 			InitializeComponent();
 		}
 
-		private void Button1_Click(object sender, RoutedEventArgs e)
+		private void TextBox1_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
 		{
-
+			TextBox2.Text = TextBox2.CaesarAlgorithm(TextBox1.Text);
 		}
 	}
 }
